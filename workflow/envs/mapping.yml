@@ -1,0 +1,12 @@
+
+channels:
+  - bioconda
+  - conda-forge
+  - r
+  - defaults
+dependencies:
+  - perl
+  - bismark==0.20.0  # depends on bowtie and samtools
+  - samtools==0.19
+  - bowtie
+
